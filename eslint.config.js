@@ -23,4 +23,19 @@ export default [
       "/bin/",
     ],
   },
+  {
+    name: "custom-rule",
+    rules: {
+      "no-multiple-empty-lines": [
+        "warn",
+        {
+          max: 1, // 最大连续空行数
+          maxEOF: 0, // 文件末尾最大空行数
+          maxBOF: 0, // 文件开头最大空行数
+        },
+      ],
+      semi: ["error", "never"], // 不使用分号
+      quotes: ["error", "single"], // 使用单引号
+    },
+  },
 ];
