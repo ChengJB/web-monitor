@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# --no-install 代表强制使用本地模块
+pnpm run lint:lint-staged
