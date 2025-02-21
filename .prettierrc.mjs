@@ -1,0 +1,7 @@
+export const printWidth = 120 // 每行代码长度(默认80)
+export const tabWidth = 4 // 缩进长度(默认2)
+export const useTabs = true // 使用空格代替tab缩进(默认false)
+export const semi = false // 句末加分号(默认true)
+export const singleQuote = true // 使用单引号(默认false)
+export const endOfLine = 'auto' // 行尾换行符(默认lf)
+export const trailingComma = 'none' // 末尾逗号(默认es5)
