@@ -24,9 +24,6 @@ export default [
       ".local/",
       "/bin/",
     ],
-  },
-  {
-    name: "custom-rule",
     rules: {
       "no-multiple-empty-lines": [
         "warn",
