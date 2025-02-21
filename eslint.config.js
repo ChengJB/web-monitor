@@ -1,5 +1,6 @@
 import vuePlugin from "eslint-plugin-vue";
-import tsPlugin from "typescript-eslint";
+import tsPlugin from "@typescript-eslint/eslint-plugin";
+import prettierPlugin from "eslint-plugin-prettier";
 
 export default [
   {
@@ -7,8 +8,9 @@ export default [
       sourceType: "module",
     },
     plugins: {
-      vuePlugin,
-      tsPlugin,
+      vue: vuePlugin,
+      "@typescript-eslint": tsPlugin,
+      prettier: prettierPlugin,
     },
     ignores: [
       "node_modules/",
