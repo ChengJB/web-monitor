@@ -1,0 +1,14 @@
+"filename", "language", "JSON", "HTML", "JavaScript", "YAML", "comment", "blank", "total"
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\.commitlintrc.cjs", "JavaScript", 0, 0, 33, 0, 5, 1, 39
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\.ptettier.config.js", "JavaScript", 0, 0, 7, 0, 0, 1, 8
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\eslint.config.js", "JavaScript", 0, 0, 41, 0, 0, 2, 43
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\index.html", "HTML", 0, 48, 0, 0, 7, 0, 55
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\package.json", "JSON", 60, 0, 0, 0, 0, 1, 61
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\pnpm-lock.yaml", "YAML", 0, 0, 0, 3064, 0, 916, 3980
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\src\performance\observerFCP.js", "JavaScript", 0, 0, 19, 0, 6, 4, 29
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\src\performance\observerFP.js", "JavaScript", 0, 0, 18, 0, 7, 3, 28
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\src\performance\observerLCP.js", "JavaScript", 0, 0, 18, 0, 5, 2, 25
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\src\performance\observerLoad.js", "JavaScript", 0, 0, 37, 0, 24, 4, 65
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\src\performance\observerResource.js", "JavaScript", 0, 0, 37, 0, 1, 3, 41
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\Frontend-Monitoring\src\performance\observerXhr.js", "JavaScript", 0, 0, 0, 0, 0, 1, 1
+"Total", "-", 60, 48, 210, 3064, 55, 938, 4375

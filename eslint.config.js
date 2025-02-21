@@ -1,6 +1,6 @@
 import vuePlugin from "eslint-plugin-vue";
 import tsPlugin from "typescript-eslint";
-// 在最后面新增extends
+
 export default [
   {
     languageOptions: {
@@ -36,6 +36,7 @@ export default [
       ],
       semi: ["error", "never"], // 不使用分号
       quotes: ["error", "single"], // 使用单引号
+      "no-unused-vars": ["warn", { varsIgnorePattern: "^_" }], // 忽略以 _ 开头的变量
     },
   },
 ];
