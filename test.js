@@ -42,5 +42,8 @@ console.log(child.play,child2.play)
 // }
 // test()
 // test2.test2()
-const test = new XMLHttpRequest();
-console.log(test);
+// const test = new XMLHttpRequest()
+// console.log('test')
+
+// const a = 1
+// console.log(a)

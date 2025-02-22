@@ -1,55 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>前端监控</title>
-    <!-- <script type="module">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>前端监控</title>
+		<!-- <script type="module">
     import {onCLS, onINP, onLCP} from 'https://unpkg.com/web-vitals@4?module';
   
     onCLS(console.log);
     onINP(console.log);
     onLCP(console.log);
   </script> -->
-  </head>
-  <body>
-    <script>
-      // console.log('test')
-      window.addEventListener(
-        "pageshow",
-        // (event) => {
-        // requestAnimationFrame(()=>{
-        //   ['load','DomContentLoaded'].forEach((type) => {
-        //     const _reportData={
-        //       type:'performance',
-        //       subType:type,
-        //       pageUrl:window.location.href,
-        //       startTime:performance.now()-event.timeStamp
-        //     }
-        //     console.log('reportData:',_reportData)
-        //   })
-        // },true)}
-        (event) => {
-          console.log("pageshow", event);
-        },
-      );
-      window.addEventListener("load", (event) => {
-        console.log("load", event);
-      });
-      window.addEventListener("DOMContentLoaded", (event) => {
-        console.log("DOMContentLoaded", event);
-      });
-    </script>
-    <div>test</div>
-    <button>button</button>
-    <script>
-      const button = document.querySelector("button");
-      let divObj = document.querySelector("div");
-      button.addEventListener("click", () => {
-        console.log("click");
-        //在div后面添加元素
-        divObj.insertAdjacentHTML("afterend", "<div>new div</div>");
-      });
-    </script>
-  </body>
+	</head>
+	<body>
+		<script>
+			// console.log('test')
+			window.addEventListener(
+				'pageshow',
+				// (event) => {
+				// requestAnimationFrame(()=>{
+				//   ['load','DomContentLoaded'].forEach((type) => {
+				//     const _reportData={
+				//       type:'performance',
+				//       subType:type,
+				//       pageUrl:window.location.href,
+				//       startTime:performance.now()-event.timeStamp
+				//     }
+				//     console.log('reportData:',_reportData)
+				//   })
+				// },true)}
+				(event) => {
+					console.log('pageshow', event)
+				}
+			)
+			window.addEventListener('load', (event) => {
+				console.log('load', event)
+			})
+			window.addEventListener('DOMContentLoaded', (event) => {
+				console.log('DOMContentLoaded', event)
+			})
+		</script>
+		<div>test</div>
+		<button>button</button>
+		<script>
+			const button = document.querySelector('button')
+			let divObj = document.querySelector('div')
+			button.addEventListener('click', () => {
+				console.log('click')
+				//在div后面添加元素
+				divObj.insertAdjacentHTML('afterend', '<div>new div</div>')
+			})
+		</script>
+	</body>
 </html>

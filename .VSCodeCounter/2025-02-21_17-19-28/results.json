@@ -1,74 +1,74 @@
 {
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/package.json": {
-    "language": "JSON",
-    "code": 60,
-    "comment": 0,
-    "blank": 1
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/index.html": {
-    "language": "HTML",
-    "code": 48,
-    "comment": 7,
-    "blank": 0
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerXhr.js": {
-    "language": "JavaScript",
-    "code": 0,
-    "comment": 0,
-    "blank": 1
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/eslint.config.js": {
-    "language": "JavaScript",
-    "code": 41,
-    "comment": 0,
-    "blank": 2
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerResource.js": {
-    "language": "JavaScript",
-    "code": 37,
-    "comment": 1,
-    "blank": 3
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerLCP.js": {
-    "language": "JavaScript",
-    "code": 18,
-    "comment": 5,
-    "blank": 2
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerFP.js": {
-    "language": "JavaScript",
-    "code": 18,
-    "comment": 7,
-    "blank": 3
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerFCP.js": {
-    "language": "JavaScript",
-    "code": 19,
-    "comment": 6,
-    "blank": 4
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/.ptettier.config.js": {
-    "language": "JavaScript",
-    "code": 7,
-    "comment": 0,
-    "blank": 1
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/pnpm-lock.yaml": {
-    "language": "YAML",
-    "code": 3064,
-    "comment": 0,
-    "blank": 916
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerLoad.js": {
-    "language": "JavaScript",
-    "code": 37,
-    "comment": 24,
-    "blank": 4
-  },
-  "file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/.commitlintrc.cjs": {
-    "language": "JavaScript",
-    "code": 33,
-    "comment": 5,
-    "blank": 1
-  }
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/package.json": {
+		"language": "JSON",
+		"code": 60,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/index.html": {
+		"language": "HTML",
+		"code": 48,
+		"comment": 7,
+		"blank": 0
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerXhr.js": {
+		"language": "JavaScript",
+		"code": 0,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/eslint.config.js": {
+		"language": "JavaScript",
+		"code": 41,
+		"comment": 0,
+		"blank": 2
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerResource.js": {
+		"language": "JavaScript",
+		"code": 37,
+		"comment": 1,
+		"blank": 3
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerLCP.js": {
+		"language": "JavaScript",
+		"code": 18,
+		"comment": 5,
+		"blank": 2
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerFP.js": {
+		"language": "JavaScript",
+		"code": 18,
+		"comment": 7,
+		"blank": 3
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerFCP.js": {
+		"language": "JavaScript",
+		"code": 19,
+		"comment": 6,
+		"blank": 4
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/.ptettier.config.js": {
+		"language": "JavaScript",
+		"code": 7,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/pnpm-lock.yaml": {
+		"language": "YAML",
+		"code": 3064,
+		"comment": 0,
+		"blank": 916
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/src/performance/observerLoad.js": {
+		"language": "JavaScript",
+		"code": 37,
+		"comment": 24,
+		"blank": 4
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/Frontend-Monitoring/.commitlintrc.cjs": {
+		"language": "JavaScript",
+		"code": 33,
+		"comment": 5,
+		"blank": 1
+	}
 }

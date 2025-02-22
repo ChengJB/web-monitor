@@ -1,58 +1,58 @@
 {
-  "name": "Frontend-Monitoring",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install",
-    "lint:eslint": "eslint --cache --max-warnings 0 {src,mock}/**/*.{vue,ts,tsx} --fix",
-    "lint:prettier": "prettier --write **/*.{js,json,tsx,css,less,scss,vue,html,md}",
-    "lint:lint-staged": "lint-staged"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@antfu/eslint-config": "^3.7.3",
-    "@commitlint/cli": "^19.7.1",
-    "@commitlint/config-conventional": "^19.7.1",
-    "@eslint/create-config": "^1.4.0",
-    "@eslint/js": "^9.20.0",
-    "eslint": "^9.20.1",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-vue": "^9.32.0",
-    "globals": "^15.15.0",
-    "husky": "^8.0.0",
-    "lint-staged": "^15.4.3",
-    "prettier": "^3.5.1",
-    "typescript-eslint": "^8.24.1"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "{!(package)*.json,*.code-snippets,.!(browserslist)*rc}": [
-      "prettier --write --parser json"
-    ],
-    "package.json": [
-      "prettier --write"
-    ],
-    "*.vue": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{scss,less,styl,html}": [
-      "prettier --write"
-    ],
-    "*.md": [
-      "prettier --write"
-    ]
-  },
-  "dependencies": {
-    "web-vitals": "^4.2.4"
-  }
+	"name": "Frontend-Monitoring",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install",
+		"lint:eslint": "eslint --cache --max-warnings 0 {src,mock}/**/*.{vue,ts,tsx} --fix",
+		"lint:prettier": "prettier --write **/*.{js,json,tsx,css,less,scss,vue,html,md}",
+		"lint:lint-staged": "lint-staged"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@antfu/eslint-config": "^3.7.3",
+		"@commitlint/cli": "^19.7.1",
+		"@commitlint/config-conventional": "^19.7.1",
+		"@eslint/create-config": "^1.4.0",
+		"@eslint/js": "^9.20.0",
+		"eslint": "^9.20.1",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-prettier": "^5.2.3",
+		"eslint-plugin-vue": "^9.32.0",
+		"globals": "^15.15.0",
+		"husky": "^8.0.0",
+		"lint-staged": "^15.4.3",
+		"prettier": "^3.5.1",
+		"typescript-eslint": "^8.24.1"
+	},
+	"lint-staged": {
+		"*.{js,jsx,ts,tsx}": [
+			"eslint --fix",
+			"prettier --write"
+		],
+		"{!(package)*.json,*.code-snippets,.!(browserslist)*rc}": [
+			"prettier --write --parser json"
+		],
+		"package.json": [
+			"prettier --write"
+		],
+		"*.vue": [
+			"eslint --fix",
+			"prettier --write"
+		],
+		"*.{scss,less,styl,html}": [
+			"prettier --write"
+		],
+		"*.md": [
+			"prettier --write"
+		]
+	},
+	"dependencies": {
+		"web-vitals": "^4.2.4"
+	}
 }
