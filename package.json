@@ -1,6 +1,6 @@
 {
-	"name": "Frontend-Monitoring",
-	"version": "1.0.0",
+	"name": "web-monitor",
+	"version": "0.0.0",
 	"description": "",
 	"main": "index.js",
 	"type": "module",
@@ -9,7 +9,10 @@
 		"prepare": "husky install",
 		"lint:eslint": "eslint --cache --max-warnings 0 {src,mock}/**/*.{vue,ts,tsx} --fix",
 		"lint:prettier": "prettier --write **/*.{js,json,tsx,css,less,scss,vue,html,md}",
-		"lint:lint-staged": "lint-staged"
+		"lint:lint-staged": "lint-staged",
+		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+		"release": "pnpm run changelog && git add CHANGELOG.md && git commit -m 'chore(release): update changelog'",
+		"version": "pnpm run release"
 	},
 	"keywords": [],
 	"author": "",
@@ -54,5 +57,10 @@
 	},
 	"dependencies": {
 		"web-vitals": "^4.2.4"
+	},
+	"config": {
+		"commitizen": {
+			"path": "cz-conventional-changelog"
+		}
 	}
 }

@@ -27,3 +27,6 @@ pnpm-debug.log*
 *.sw?
 ZJS-FT.zip
 /node_modules/
+
+# 忽略test文件夹
+test
