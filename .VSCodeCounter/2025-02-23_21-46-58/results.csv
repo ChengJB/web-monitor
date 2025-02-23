@@ -1,0 +1,31 @@
+"filename", "language", "JSON with Comments", "TypeScript", "JSON", "JavaScript", "HTML", "Markdown", "YAML", "comment", "blank", "total"
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\.commitlintrc.cjs", "JavaScript", 0, 0, 0, 33, 0, 0, 0, 5, 1, 39
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\.prettierrc.cjs", "JavaScript", 0, 0, 0, 9, 0, 0, 0, 1, 1, 11
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\CHANGELOG.md", "Markdown", 0, 0, 0, 0, 0, 10, 0, 0, 5, 15
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\eslint.config.js", "JavaScript", 0, 0, 0, 42, 0, 0, 0, 4, 2, 48
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\index.html", "HTML", 0, 0, 0, 0, 48, 0, 0, 7, 1, 56
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\package.json", "JSON", 0, 0, 70, 0, 0, 0, 0, 0, 1, 71
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\core\package.json", "JSON", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\core\src\index.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\core\src\modules\index.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\core\src\modules\reportData.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\package.json", "JSON", 0, 0, 12, 0, 0, 0, 0, 0, 1, 13
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\index.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\modules\getCLS.ts", "TypeScript", 0, 36, 0, 0, 0, 0, 0, 8, 5, 49
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\modules\getFCP.ts", "TypeScript", 0, 17, 0, 0, 0, 0, 0, 6, 1, 24
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\modules\getFID.ts", "TypeScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 16
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\modules\getFP.ts", "TypeScript", 0, 17, 0, 0, 0, 0, 0, 6, 1, 24
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\modules\getLCP.ts", "TypeScript", 0, 17, 0, 0, 0, 0, 0, 3, 1, 21
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\modules\getResource.ts", "TypeScript", 0, 16, 0, 0, 0, 0, 0, 3, 1, 20
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\performance\src\modules\getTTFB.ts", "TypeScript", 0, 13, 0, 0, 0, 0, 0, 0, 0, 13
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\types\package.json", "JSON", 0, 0, 12, 0, 0, 0, 0, 0, 1, 13
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\types\src\index.ts", "TypeScript", 0, 1, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\types\src\modules\base.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\types\src\modules\performance.ts", "TypeScript", 0, 3, 0, 0, 0, 0, 0, 0, 0, 3
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\utils\package.json", "JSON", 0, 0, 12, 0, 0, 0, 0, 0, 1, 13
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\utils\src\index.ts", "TypeScript", 0, 2, 0, 0, 0, 0, 0, 0, 0, 2
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\utils\src\modules\global.ts", "TypeScript", 0, 5, 0, 0, 0, 0, 0, 1, 1, 7
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\packages\utils\src\modules\helpers.ts", "TypeScript", 0, 4, 0, 0, 0, 0, 0, 9, 0, 13
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\pnpm-lock.yaml", "YAML", 0, 0, 0, 0, 0, 0, 3076, 0, 916, 3992
+"c:\Users\ChengJiangBo\Desktop\1024\1024\练习\vue\web-monitor\tsconfig.json", "JSON with Comments", 31, 0, 0, 0, 0, 0, 0, 2, 1, 34
+"Total", "-", 31, 147, 106, 84, 48, 10, 3076, 55, 947, 4504

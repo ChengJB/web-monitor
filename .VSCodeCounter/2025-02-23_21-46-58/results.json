@@ -1,0 +1,176 @@
+{
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/tsconfig.json": {
+		"language": "JSON with Comments",
+		"code": 31,
+		"comment": 2,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/utils/src/modules/helpers.ts": {
+		"language": "TypeScript",
+		"code": 4,
+		"comment": 9,
+		"blank": 0
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/utils/src/modules/global.ts": {
+		"language": "TypeScript",
+		"code": 5,
+		"comment": 1,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/utils/package.json": {
+		"language": "JSON",
+		"code": 12,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/types/src/modules/performance.ts": {
+		"language": "TypeScript",
+		"code": 3,
+		"comment": 0,
+		"blank": 0
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/types/src/modules/base.ts": {
+		"language": "TypeScript",
+		"code": 0,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/types/src/index.ts": {
+		"language": "TypeScript",
+		"code": 1,
+		"comment": 0,
+		"blank": 0
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/types/package.json": {
+		"language": "JSON",
+		"code": 12,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/modules/getTTFB.ts": {
+		"language": "TypeScript",
+		"code": 13,
+		"comment": 0,
+		"blank": 0
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/utils/src/index.ts": {
+		"language": "TypeScript",
+		"code": 2,
+		"comment": 0,
+		"blank": 0
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/modules/getLCP.ts": {
+		"language": "TypeScript",
+		"code": 17,
+		"comment": 3,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/modules/getFP.ts": {
+		"language": "TypeScript",
+		"code": 17,
+		"comment": 6,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/modules/getFID.ts": {
+		"language": "TypeScript",
+		"code": 16,
+		"comment": 0,
+		"blank": 0
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/modules/getFCP.ts": {
+		"language": "TypeScript",
+		"code": 17,
+		"comment": 6,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/modules/getCLS.ts": {
+		"language": "TypeScript",
+		"code": 36,
+		"comment": 8,
+		"blank": 5
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/index.ts": {
+		"language": "TypeScript",
+		"code": 0,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/package.json": {
+		"language": "JSON",
+		"code": 12,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/core/src/modules/reportData.ts": {
+		"language": "TypeScript",
+		"code": 0,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/core/src/modules/index.js": {
+		"language": "JavaScript",
+		"code": 0,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/core/src/index.js": {
+		"language": "JavaScript",
+		"code": 0,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/core/package.json": {
+		"language": "JSON",
+		"code": 0,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/package.json": {
+		"language": "JSON",
+		"code": 70,
+		"comment": 0,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/index.html": {
+		"language": "HTML",
+		"code": 48,
+		"comment": 7,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/eslint.config.js": {
+		"language": "JavaScript",
+		"code": 42,
+		"comment": 4,
+		"blank": 2
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/CHANGELOG.md": {
+		"language": "Markdown",
+		"code": 10,
+		"comment": 0,
+		"blank": 5
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/.prettierrc.cjs": {
+		"language": "JavaScript",
+		"code": 9,
+		"comment": 1,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/.commitlintrc.cjs": {
+		"language": "JavaScript",
+		"code": 33,
+		"comment": 5,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/packages/performance/src/modules/getResource.ts": {
+		"language": "TypeScript",
+		"code": 16,
+		"comment": 3,
+		"blank": 1
+	},
+	"file:///c%3A/Users/ChengJiangBo/Desktop/1024/1024/%E7%BB%83%E4%B9%A0/vue/web-monitor/pnpm-lock.yaml": {
+		"language": "YAML",
+		"code": 3076,
+		"comment": 0,
+		"blank": 916
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"include": ["global.d.ts", "packages", "types", "test", "eslint.config.js"],
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"lib": ["dom", "es2015"], // 必须包含 dom 类型定义
+		"target": "es2015", // 确保支持现代浏览器API
+		// "target": "es5",
+		"module": "esnext",
+		// "lib": ["dom", "esnext"],
+		"importHelpers": true,
+		"declaration": true,
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		"paths": {
+			"*": ["src/*", "node_modules/*"],
+			"@web-monitor/*": ["packages/*/src"]
+		},
+		"jsx": "react",
+		"esModuleInterop": true
+	}
+}
