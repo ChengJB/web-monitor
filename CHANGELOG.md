@@ -11,4 +11,5 @@
 
 - 初步完成性能数据采集 ([7e55a2c](https://github.com/ChengJB/web-monitor/commit/7e55a2cb8cd00d10e12a130951b24e79de8e6354))
 - 更改eslint.config.js ([650e437](https://github.com/ChengJB/web-monitor/commit/650e437661154d907109e02af7047ecfac87bd66))
+- 实现性能监控 ([29972aa](https://github.com/ChengJB/web-monitor/commit/29972aa0d65602abb38a9ddf00498943de297e2c))
 - init ([ab739d8](https://github.com/ChengJB/web-monitor/commit/ab739d8b0d6c919255401aa06664ec615e09517e))
