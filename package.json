@@ -11,8 +11,7 @@
 		"lint:prettier": "prettier --write **/*.{js,json,tsx,css,less,scss,vue,html,md}",
 		"lint:lint-staged": "lint-staged",
 		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-		"release": "pnpm run changelog && git add CHANGELOG.md && git commit -m \"chore(release): v$npm_package_version\"",
-		"version": "pnpm run release"
+		"release": "pnpm run changelog && git add CHANGELOG.md && git commit -m \"chore(release): v%npm_package_version%\""
 	},
 	"keywords": [],
 	"author": "",
