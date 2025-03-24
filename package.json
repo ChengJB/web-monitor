@@ -1,69 +1,21 @@
 {
-	"name": "web-monitor",
-	"version": "0.0.0",
-	"description": "",
-	"main": "index.js",
-	"type": "module",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"prepare": "husky install",
-		"lint:eslint": "eslint --cache --max-warnings 0 {src,mock}/**/*.{vue,ts,tsx} --fix",
-		"lint:prettier": "prettier --write **/*.{js,json,tsx,css,less,scss,vue,html,md}",
-		"lint:lint-staged": "lint-staged",
-		"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-		"release": "pnpm run changelog && git add CHANGELOG.md && git commit -m \"chore(release): v%npm_package_version%\""
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"web-vitals": "^4.2.4"
-	},
-	"devDependencies": {
-		"@antfu/eslint-config": "^3.7.3",
-		"@commitlint/cli": "^19.7.1",
-		"@commitlint/config-conventional": "^19.7.1",
-		"@eslint/create-config": "^1.4.0",
-		"@eslint/js": "^9.20.0",
-		"@typescript-eslint/eslint-plugin": "^8.24.1",
-		"@typescript-eslint/parser": "^8.24.1",
-		"eslint": "^9.20.1",
-		"eslint-config-prettier": "^10.0.1",
-		"eslint-plugin-prettier": "^5.2.3",
-		"eslint-plugin-vue": "^9.32.0",
-		"globals": "^15.15.0",
-		"husky": "^8.0.0",
-		"lint-staged": "^15.4.3",
-		"prettier": "^3.5.1",
-		"typescript": "^5.7.3",
-		"typescript-eslint": "^8.24.1",
-		"vue-eslint-parser": "^9.4.3"
-	},
-	"lint-staged": {
-		"*.{js,jsx,ts,tsx}": [
-			"eslint --fix",
-			"prettier --write"
-		],
-		"{!(package)*.json,*.code-snippets,.!(browserslist)*rc}": [
-			"prettier --write --parser json"
-		],
-		"package.json": [
-			"prettier --write"
-		],
-		"*.vue": [
-			"eslint --fix",
-			"prettier --write"
-		],
-		"*.{scss,less,styl,html}": [
-			"prettier --write"
-		],
-		"*.md": [
-			"prettier --write"
-		]
-	},
-	"config": {
-		"commitizen": {
-			"path": "cz-conventional-changelog"
-		}
-	}
+  "name": "web-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "changeset": "changeset",
+    "packages-version": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+  },
+  "keywords": [],
+  "author": "成江波",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.28.1",
+    "rollup": "2.78.0",
+    "rollup-plugin-typescript2": "0.34.1",
+    "typescript": "4.9.4"
+  }
 }

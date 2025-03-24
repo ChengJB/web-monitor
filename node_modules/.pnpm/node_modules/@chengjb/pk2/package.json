@@ -1,0 +1,18 @@
+{
+  "name": "@chengjb/pk2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "publishConfig": {
+    "main": "dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "成江波",
+  "license": "ISC",
+  "dependencies": {
+    "@chengjb/pk1": "workspace:^"
+  }
+}
