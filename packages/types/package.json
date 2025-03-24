@@ -1,0 +1,23 @@
+{
+  "name": "@chengjb/types",
+  "version": "1.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "module": "dist/index.esm.js",
+  "publishConfig": {
+    "main": "dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "author": "chengjb",
+  "license": "ISC",
+  "dependencies": {
+    "@chengjb/common": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChengJB/web-monitor.git"
+  }
+}

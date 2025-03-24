@@ -1,0 +1,22 @@
+{
+  "name": "@chengjb/common",
+  "version": "1.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "module": "dist/index.esm.js",
+  "publishConfig": {
+    "main": "dist/index.js",
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "author": "chengjb",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChengJB/web-monitor.git"
+  }
+}

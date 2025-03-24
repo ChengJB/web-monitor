@@ -1,21 +1,67 @@
 {
   "name": "web-monitor",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "前端监控SDK",
   "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
     "build": "rollup -c",
+    "prepare": "husky install",
+    "commit": "git-cz",
     "changeset": "changeset",
-    "packages-version": "changeset version",
-    "publish": "changeset publish --registry=https://registry.npmjs.com/ --access public"
+    "version-packages": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/ --access public",
+    "release": "pnpm build && pnpm publish",
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
-  "keywords": [],
-  "author": "成江波",
+  "keywords": [
+    "web monitor"
+  ],
+  "author": "chengjb",
   "license": "ISC",
+  "dependencies": {
+    "@changesets/cli": "^2.26.1",
+    "core-js": "^3.19.1",
+    "error-stack-parser": "^2.1.4",
+    "path-to-regexp": "^6.2.0",
+    "tslib": "^2.4.1",
+    "ua-parser-js": "^1.0.32",
+    "web-vitals": "^3.1.0"
+  },
   "devDependencies": {
-    "@changesets/cli": "^2.28.1",
-    "rollup": "2.78.0",
-    "rollup-plugin-typescript2": "0.34.1",
-    "typescript": "4.9.4"
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-json": "^5.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.29.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.0",
+    "rollup": "^2.78.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,json}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChengJB/web-monitor.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

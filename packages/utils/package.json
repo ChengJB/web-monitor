@@ -1,0 +1,27 @@
+{
+  "name": "@chengjb/utils",
+  "version": "1.1.0",
+  "description": "",
+  "main": "src/index.ts",
+  "module": "dist/index.esm.js",
+  "publishConfig": {
+    "main": "dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "author": "chengjb",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ua-parser-js": "^0.7.36",
+    "ua-parser-js": "1.0.32",
+    "@chengjb/common": "workspace:*",
+    "@chengjb/core": "workspace:*",
+    "@chengjb/types": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChengJB/web-monitor.git"
+  }
+}
