@@ -6,11 +6,13 @@
 
   function test1() {
       console.log("i am pk1-test1");
+      console.log("i am pk1-test1");
   }
 
   function test2() {
       test1();
       console.log("i am pk2-test2");
+      console.log("pk2-test2");
   }
 
   exports.test2 = test2;

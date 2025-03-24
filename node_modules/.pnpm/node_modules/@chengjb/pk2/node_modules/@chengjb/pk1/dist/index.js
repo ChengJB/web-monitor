@@ -6,6 +6,7 @@
 
   function test1() {
       console.log("i am pk1-test1");
+      console.log("i am pk1-test1");
   }
 
   exports.test1 = test1;
